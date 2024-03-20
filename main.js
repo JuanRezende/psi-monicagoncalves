@@ -36,10 +36,10 @@ function activateMenuAtCurrentSection(section) {
 function showNavOnScroll() {
   if (scrollY > 0) {
     document.querySelector("#navigation").classList.add("scroll");
-    document.querySelector(".logo img").src = "/PSIMonica/assets/MonicaGoncalvesV2.png";
+    document.querySelector(".logo img").src = "/psi-monicagoncalves/assets/MonicaGoncalvesV2.png";
   } else {
     document.querySelector("#navigation").classList.remove("scroll");
-    document.querySelector(".logo img").src = "/PSIMonica/assets/MonicaGoncalvesV1.png";
+    document.querySelector(".logo img").src = "/psi-monicagoncalves/assets/MonicaGoncalvesV1.png";
   }
 }
 
