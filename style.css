@@ -92,6 +92,8 @@ section header h1 {
 }
 
 section .content p {
+  max-width: 55rem;
+  
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 150%;
